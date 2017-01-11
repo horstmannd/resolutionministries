@@ -1,11 +1,9 @@
 ---
 layout: default
 ---
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+<!-- posts -->
+<ul class="posts">{% for post in site.posts %}
+<li>
+<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+</li>{% endfor %}
+</ul> <!-- /posts -->
