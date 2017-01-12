@@ -1,0 +1,6 @@
+#main-jumbotron {
+	background-image: url("../img/runner.jpg");
+	background-position: center;
+	background-size: cover;
+	color: white;
+}
