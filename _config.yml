@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Resolution Ministries
 email: Marcia@ResolutionMinistries.org
-description: Resolution Ministries exists to further the Kingdom of God by equipping leaders through spiritual formation and personal wholeness, and training them to guide those under their care in specific, targeted prayer, completely dependent on God to work the spiritual transactions that free individuals to be everything they were designed to be.
+description: This is the website of Marcia Horstmann, founder of Resolution Ministries, a work dedicated to equipping leaders in Prayer Resolution.
 baseurl: "/resolutionministries" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 

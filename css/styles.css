@@ -3,4 +3,25 @@
 	background-position: center;
 	background-size: cover;
 	color: white;
+	text-shadow: 1px 1px 3px black;
+}
+
+#main-jumbotron hr {
+	background-color: white;
+}
+
+a.rm:link {
+	background-color: yellow;
+	border-radius: 15%;
+	color: black;
+	padding: 3px;
+	color: black;
+	transition-duration: 1s;
+	transition-property: color, background-color;
+}
+a.rm:active {color: black;}
+a.rm:visited {color: black;}
+a.rm:hover {
+	color: yellow;
+	background-color: black;
 }
