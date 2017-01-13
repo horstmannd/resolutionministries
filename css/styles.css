@@ -2,8 +2,17 @@
 	background-image: url("../img/runner.jpg");
 	background-position: center;
 	background-size: cover;
+	font-family: 'Lato', sans-serif;
 	color: white;
-	text-shadow: 1px 1px 3px black;
+	text-shadow: 1px 1px 1px black;
+}
+
+body {
+	font-family: 'Neuton', serif;
+}
+
+#main-nav {
+	font-family: 'Lato', sans-serif;
 }
 
 #main-jumbotron hr {
@@ -14,7 +23,7 @@ a.rm:link {
 	background-color: yellow;
 	border-radius: 15%;
 	color: black;
-	padding: 3px;
+	padding: 3px 5px;
 	color: black;
 	transition-duration: 1s;
 	transition-property: color, background-color;
@@ -24,4 +33,8 @@ a.rm:visited {color: black;}
 a.rm:hover {
 	color: yellow;
 	background-color: black;
+}
+
+blockquote {
+	font-family: 'Lato', sans-serif;
 }
