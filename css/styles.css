@@ -25,16 +25,17 @@ a.rm:link {
 	color: black;
 	padding: 3px 5px;
 	color: black;
-	transition-duration: 1s;
-	transition-property: color, background-color;
 }
+
 a.rm:active {color: black;}
 a.rm:visited {color: black;}
-a.rm:hover {
-	color: yellow;
-	background-color: black;
-}
+a.rm:hover {color: black;}
 
 blockquote {
 	font-family: 'Lato', sans-serif;
+}
+
+#main-footer {
+	background-color: lightgray;
+	margin-top: 5rem;
 }
