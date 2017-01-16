@@ -36,9 +36,9 @@ title: Home
   </blockquote>
 </div>
 <div class="container text-center">
-  <h2 class="display-4 my-5 hidden-sm-up">Testimonies</h2>
-  <h2 class="display-3 my-5 hidden-sm-down.hidden-lg-up">Testimonies</h2>
-  <h2 class="display-2 my-5 hidden-md-down">Testimonies</h2>
+  <h2 class="display-4 my-5 hidden-md-up">Testimonies</h2> <!-- show xs and sm -->
+  <h2 class="display-3 my-5 hidden-sm-down hidden-xl-up">Testimonies</h2> <!-- show md and lg -->
+  <h2 class="display-2 my-5 hidden-lg-down">Testimonies</h2> <!-- show xl  -->
 
 </div>
 <div class="row testimonies">
@@ -57,7 +57,7 @@ title: Home
   </div>
 </div>
 
-<!-- posts 
+<!-- posts syntax: keep for later
 <ul class="posts">{% for post in site.posts %}
 <li>
 <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
