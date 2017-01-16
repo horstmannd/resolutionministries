@@ -12,7 +12,7 @@ Jekyll includes print funny on the page. So all code is left-justified.
 <body>
 	{% include nav.html %}
 	<div id="main-jumbotron" class="jumbotron jumbotron-fluid">
-	  <div id="main-container" class="container">
+	  <div class="container">
 	  	<h1 class="display-3">Resolution Ministries</h1>
 	  	<hr class="my-4">
 	    <p class="lead">Equipping leaders to thrive in ministry</p>
@@ -20,7 +20,7 @@ Jekyll includes print funny on the page. So all code is left-justified.
 	</div>
 
 	<!-- container -->
-	<div class="container">
+	<div id="main-container" class="container">
 	{{ content }}
 	</div> <!-- /container -->
 	{% include footer.html %}

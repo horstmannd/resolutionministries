@@ -26,8 +26,8 @@ body {
     border-radius: 15%;
 }
 
-.mission-and-work p,
-.mission-and-work ul {
+#main-container p,
+#main-container ul {
 	font-size: 1.2rem;
 }
 
