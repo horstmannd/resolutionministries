@@ -19,17 +19,21 @@ body {
 	background-color: white;
 }
 
-a.rm:link {
-	background-color: yellow;
-	border-radius: 15%;
+.navbar-brand span {
 	color: black;
-	padding: 3px 5px;
-	color: black;
+    background: yellow;
+    padding: 3px;
+    border-radius: 15%;
 }
 
-a.rm:active {color: black;}
-a.rm:visited {color: black;}
-a.rm:hover {color: black;}
+.mission-and-work p,
+.mission-and-work ul {
+	font-size: 1.2rem;
+}
+
+.testimonies {
+	font-size: 1.1rem;
+}
 
 blockquote {
 	font-family: 'Lato', sans-serif;
@@ -37,7 +41,7 @@ blockquote {
 
 #main-footer {
 	background-color: black;
-	color: white;
+	color: lightgray;
 	margin-top: 5rem;
 	padding: 3rem 0;
 	font-family: 'Lato', sans-serif;
@@ -47,3 +51,5 @@ blockquote {
 	background-color: black;
 	padding: 0 .5rem 0 0;
 }
+
+#main-footer hr {background-color: white;}
