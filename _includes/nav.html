@@ -5,23 +5,23 @@
   <a class="navbar-brand" href="{{ site.baseurl }}/"><span>RM</span></a>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul id="main-nav" class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="{{ site.baseurl }}/">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item{% if page.title == 'Home' %} active{% endif %}">
+        <a class="nav-link" href="{{ site.baseurl }}/">Home{% if page.title == 'Home' %} <span class="sr-only">(current)</span>{% endif %}</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+      <li class="nav-item{% if page.title == 'About' %} active{% endif %}">
+        <a class="nav-link" href="{{ site.baseurl }}/about/">About{% if page.title == 'About' %} <span class="sr-only">(current)</span>{% endif %}</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Ministries</a>
+      <li class="nav-item{% if page.title == 'Ministries' %} active{% endif %}">
+        <a class="nav-link" href="{{ site.baseurl }}/ministries/">Ministries{% if page.title == 'Ministries' %} <span class="sr-only">(current)</span>{% endif %}</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Affiliate Links</a>
+      <li class="nav-item{% if page.title == 'Affiliates' %} active{% endif %}">
+        <a class="nav-link" href="{{ site.baseurl }}/affiliates/">Affiliates{% if page.title == 'Affiliates' %} <span class="sr-only">(current)</span>{% endif %}</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{{ site.baseurl }}/contact/">Contact</a>
+      <li class="nav-item{% if page.title == 'Contact' %} active{% endif %}">
+        <a class="nav-link" href="{{ site.baseurl }}/contact/">Contact{% if page.title == 'Contact' %} <span class="sr-only">(current)</span>{% endif %}</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Donate</a>
+      <li class="nav-item{% if page.title == 'Donate' %} active{% endif %}">
+        <a class="nav-link" href="{{ site.baseurl }}/donate/">Donate{% if page.title == 'Donate' %} <span class="sr-only">(current)</span>{% endif %}</a>
       </li>
     </ul>
   </div>
