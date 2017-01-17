@@ -53,3 +53,11 @@ blockquote {
 }
 
 #main-footer hr {background-color: white;}
+
+a.gray-links:link {
+	color: lightgray;
+	text-decoration: underline;
+}
+a.gray-links:active {color: lightgray;}
+a.gray-links:visited {color: lightgray;}
+a.gray-links:hover {color: lightgray;}
