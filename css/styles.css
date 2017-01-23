@@ -37,6 +37,7 @@ body {
 
 blockquote {
 	font-family: 'Lato', sans-serif;
+	text-shadow: 0px 1px 0px #fff;
 }
 
 .about {
