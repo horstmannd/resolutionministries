@@ -39,6 +39,25 @@ blockquote {
 	font-family: 'Lato', sans-serif;
 }
 
+.about {
+	color: #666;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.1rem;
+	font-size: .9rem;
+	margin-right: 1rem;
+}
+
+.about span {
+	display: block;
+}
+
+.about-pic {
+	max-width: 250px;
+	border-radius: 2px;
+}
+
+.container .test img {text-align: center;}
+
 #main-footer {
 	background-color: black;
 	color: lightgray;
