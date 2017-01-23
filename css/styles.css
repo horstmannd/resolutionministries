@@ -1,3 +1,8 @@
+a:link,
+a:hover {
+	text-decoration: none;
+}
+
 #main-jumbotron {
 	background-image: url("../img/runner.jpg");
 	background-position: center;
@@ -57,7 +62,26 @@ blockquote {
 	border-radius: 2px;
 }
 
-.container .test img {text-align: center;}
+.callout {
+	background-color: #ffeecc;
+	color: #664400;
+	border-radius: 3px;
+	font-size: .9rem !important;
+	font-family: 'Lato', sans-serif;
+	padding: 7px;
+}
+
+.nav-tabs {
+	font-family: 'Lato', sans-serif;
+}
+
+.tab-content {
+	margin-top: 1rem;
+	padding: 0 5px;
+}
+.small-text {
+	font-size: .9rem !important;
+}
 
 #main-footer {
 	background-color: black;
