@@ -16,7 +16,7 @@
 title: Resolution Ministries
 email: marciahorstmann@gmail.com
 description: This is the website of Marcia Horstmann, founder of Resolution Ministries, a work dedicated to equipping leaders in Prayer Resolution.
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
